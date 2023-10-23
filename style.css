@@ -1,0 +1,76 @@
+body {
+    background-color: black; 
+    font-family: cursive;
+    font-size: 2rem;
+    font-style: inherit;
+    border: 2.5px;
+    text-align: left;
+}
+
+header {
+    background-color: rgb(32, 179, 219);
+    font-size: 2rem;
+    font-variant: oblique;
+    border: 2.5px rgb(32, 179, 219);
+    text-align: center;
+    margin: 5px;
+}
+
+.profile-photo { 
+    margin: 0 auto;
+    display: block;
+}
+
+section{
+    background-color: rgb(32, 179, 219);
+    font-size: 2rem;
+    padding: 2rem;
+    margin: 2px;
+    margin-bottom: 3rem;
+}
+
+#About{
+    border: 2px solid red;
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+
+#ContactMe{
+    border: 5px solid beige;
+    font-size: 1.5rem;
+    
+}
+
+
+
+#photo{
+    width: 200px ;
+    height: 200px;
+    border: 2px rgb(32, 179, 219);
+    object-fit: cover;
+}
+
+#Project{
+    padding: 20px blue;
+    border: 6 px black;
+    font-size: 1.5rem ;
+    margin: 7px;
+}
+
+#Project_lists{
+    color: yellow;
+}
+
+ol{
+    display: inline-table;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+li{
+    border: 3px solid black;
+    margin: 10px;
+    list-style: none;
+}
